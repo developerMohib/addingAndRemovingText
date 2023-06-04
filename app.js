@@ -7,7 +7,7 @@ function adding(){
     
     let headForAdd = document.createElement(`h1`);
     let addText = document.createTextNode(` i am from js. so`);
-    headForAdd.appendChild(headForAdd);
+    headForAdd.appendChild(addText);
 
     let clickButton = document.getElementById('btn1');
     clickButton.appendChild(addText);
